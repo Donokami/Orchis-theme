@@ -99,7 +99,7 @@
     <linearGradient
        id="color-background-dark">
       <stop
-         stop-color="#212121"
+         stop-color="#1A202E"
          offset="1"
          id="stop23" />
     </linearGradient>
@@ -117,7 +117,7 @@
        x2="40"
        gradientUnits="userSpaceOnUse">
       <stop
-         stop-color="#3C3C3C"
+         stop-color="#2D3547"
          offset="1"
          id="stop29" />
     </linearGradient>

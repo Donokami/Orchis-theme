@@ -74,10 +74,10 @@
   @if ($type == 'd') { @return #CCCCCC; }
 
   @if ($blackness == 'false') {
-    @if ($type == 'e') { @return #212121; }
-    @if ($type == 'f') { @return #242424; }
-    @if ($type == 'g') { @return #2C2C2C; }
-    @if ($type == 'h') { @return #3C3C3C; }
+    @if ($type == 'e') { @return #1A202E; }
+    @if ($type == 'f') { @return #1D2434; }
+    @if ($type == 'g') { @return #222838; }
+    @if ($type == 'h') { @return #2D3547; }
   } @else {
     @if ($type == 'e') { @return #000000; }
     @if ($type == 'f') { @return #030303; }
@@ -98,14 +98,14 @@ $surface:                               if($variant == 'light', background(a), b
 $base:                                  if($variant == 'light', background(a), background(g));
 $base-alt:                              if($variant == 'light', background(b), background(f));
 
-$tooltip:                               if($blackness == 'true' and $variant == 'dark', rgba(#101010, 0.9), rgba(#363636, 0.9));
+$tooltip:                               if($blackness == 'true' and $variant == 'dark', rgba(#101010, 0.9), rgba(#282F40, 0.9));
 $scrim:                                 rgba(black, 0.6);
 $scrim-alt:                             rgba(black, 0.3);
 $scrim-inverse:                         rgba(white, 0.1);
 $titlebar:                              if($topbar == 'dark', background(g), background(a));
 $titlebar-backdrop:                     if($topbar == 'dark', background(g), background(a));
 
-$panel-solid:                           if($blackness == 'true', black, #1F1F1F); // for Unity panel which doesn't allow translucent colors
+$panel-solid:                           if($blackness == 'true', black, #161C28); // for Unity panel which doesn't allow translucent colors
 $panel:                                 if($opacity == 'default', rgba($panel-solid, 0.65), $panel-solid);
 
 $button:                                if($blackness == 'true' and $variant == 'dark', on($background, secondary-fill), on($background, fill));
@@ -128,7 +128,7 @@ $destructive:                           $error;
 $check_radio_primary:                   if($check_radio == 'default', $success, $primary);
 
 $frame:                                 if($variant == 'light', rgba(black, 0.08), rgba(black, 0.16)); // instead of shadows
-$solid-border:                          if($variant == 'light', darken($background, 8%), lighten($background, 12%));
+$solid-border:                          if($variant == 'light', darken($background, 8%), lighten($background, 6%));
 $border-alt:                            rgba(black, 0.16); // darker border color for Chrome and Firefox
 $titlebar-indicator:                    if($topbar == 'dark', currentColor, $primary);
 

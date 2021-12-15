@@ -2594,7 +2594,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .keyboard-key.default-key {
-  background-color: #212121;
+  background-color: #1A202E;
   box-shadow: 0 1px rgba(0, 0, 0, 0.2);
 }
 

@@ -2450,7 +2450,7 @@ Gjs_ui_panel_ActivitiesButton.panel-button:active, Gjs_ui_panel_ActivitiesButton
 
 .system-action-icon {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
-  background-color: #212121;
+  background-color: #1A202E;
   color: #FFFFFF;
   border-radius: 99px;
   icon-size: 48px;

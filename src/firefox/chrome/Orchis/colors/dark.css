@@ -16,7 +16,7 @@
 	--gnome-tabstoolbar-background: #202020;
 	--gnome-findbar-background: #333333;
 	--gnome-toolbar-color: #ffffff;
-	--gnome-toolbar-border-color: #242424;
+	--gnome-toolbar-border-color: #1D2434;
 	--gnome-inactive-toolbar-background: #353535;
 	--gnome-inactive-toolbar-border-color: #282828;
 	--gnome-inactive-tabstoolbar-background: #1e1e1e;
@@ -37,7 +37,7 @@
 
 	/* Header bar */
 	--gnome-headerbar-background: #383838;
-	--gnome-headerbar-border-color: #242424;
+	--gnome-headerbar-border-color: #1D2434;
 	--gnome-headerbar-box-shadow: inset 0 1px rgba(255, 255, 255, 0.15);
 	--gnome-inactive-headerbar-background: #313131;
 	--gnome-inactive-headerbar-border-color: #282828;
